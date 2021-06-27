@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/modules/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/forms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/modals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="modals_and_slider" />
+        <entry key="$PROJECT_DIR$" value="tabs" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,9 +33,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\Udemy\JS Andvanced\Source\src\assets\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +54,8 @@
       <workItem from="1624469287095" duration="6666000" />
       <workItem from="1624560110455" duration="2019000" />
       <workItem from="1624563469397" duration="736000" />
-      <workItem from="1624705449378" duration="3530000" />
+      <workItem from="1624705449378" duration="4325000" />
+      <workItem from="1624801213412" duration="6576000" />
     </task>
     <task id="LOCAL-00001" summary="Added carcass with no JS">
       <created>1624562873557</created>
@@ -63,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624563094996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added tabs script for site">
+      <created>1624712529722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624712529722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added carcass with no JS" />
     <MESSAGE value="Added modal windows and slider for website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added modal windows and slider for website" />
+    <MESSAGE value="Added tabs script for site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tabs script for site" />
   </component>
 </project>
