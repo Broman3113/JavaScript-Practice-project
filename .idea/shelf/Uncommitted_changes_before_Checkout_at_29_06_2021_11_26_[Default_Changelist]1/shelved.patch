@@ -1,0 +1,21 @@
+Index: gulpfile.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"use strict\";\r\n\r\nconst gulp = require(\"gulp\");\r\nconst webpack = require(\"webpack-stream\");\r\nconst browsersync = require(\"browser-sync\");\r\n\r\nconst dist = \"./dist/\";\r\n// const dist = \"E:/OpenServer/MAMP/htdocs/irvas\"; //Dist for testing server side in MAMP\r\n\r\ngulp.task(\"copy-html\", () => {\r\n    return gulp.src(\"./src/index.html\")\r\n                .pipe(gulp.dest(dist))\r\n                .pipe(browsersync.stream());\r\n});\r\n\r\ngulp.task(\"build-js\", () => {\r\n    return gulp.src(\"./src/js/main.js\")\r\n                .pipe(webpack({\r\n                    mode: 'development',\r\n                    output: {\r\n                        filename: 'script.js'\r\n                    },\r\n                    watch: false,\r\n                    devtool: \"source-map\",\r\n                    module: {\r\n                        rules: [\r\n                          {\r\n                            test: /\\.m?js$/,\r\n                            exclude: /(node_modules|bower_components)/,\r\n                            use: {\r\n                              loader: 'babel-loader',\r\n                              options: {\r\n                                presets: [['@babel/preset-env', {\r\n                                    debug: true,\r\n                                    corejs: 3,\r\n                                    useBuiltIns: \"usage\"\r\n                                }]]\r\n                              }\r\n                            }\r\n                          }\r\n                        ]\r\n                      }\r\n                }))\r\n                .pipe(gulp.dest(dist))\r\n                .on(\"end\", browsersync.reload);\r\n});\r\n\r\ngulp.task(\"copy-assets\", () => {\r\n    return gulp.src(\"./src/assets/**/*.*\")\r\n                .pipe(gulp.dest(dist + \"/assets\"))\r\n                .on(\"end\", browsersync.reload);\r\n});\r\n\r\ngulp.task(\"watch\", () => {\r\n    browsersync.init({\r\n\t\tserver: \"./dist/\",\r\n\t\tport: 4000,\r\n\t\tnotify: true\r\n    });\r\n    \r\n    gulp.watch(\"./src/index.html\", gulp.parallel(\"copy-html\"));\r\n    gulp.watch(\"./src/assets/**/*.*\", gulp.parallel(\"copy-assets\"));\r\n    gulp.watch(\"./src/js/**/*.js\", gulp.parallel(\"build-js\"));\r\n});\r\n\r\ngulp.task(\"build\", gulp.parallel(\"copy-html\", \"copy-assets\", \"build-js\"));\r\n\r\ngulp.task(\"build-prod-js\", () => {\r\n    return gulp.src(\"./src/js/main.js\")\r\n                .pipe(webpack({\r\n                    mode: 'production',\r\n                    output: {\r\n                        filename: 'script.js'\r\n                    },\r\n                    module: {\r\n                        rules: [\r\n                          {\r\n                            test: /\\.m?js$/,\r\n                            exclude: /(node_modules|bower_components)/,\r\n                            use: {\r\n                              loader: 'babel-loader',\r\n                              options: {\r\n                                presets: [['@babel/preset-env', {\r\n                                    corejs: 3,\r\n                                    useBuiltIns: \"usage\"\r\n                                }]]\r\n                              }\r\n                            }\r\n                          }\r\n                        ]\r\n                      }\r\n                }))\r\n                .pipe(gulp.dest(dist));\r\n});\r\n\r\ngulp.task(\"default\", gulp.parallel(\"watch\", \"build\"));\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gulpfile.js b/gulpfile.js
+--- a/gulpfile.js	
++++ b/gulpfile.js	
+@@ -4,8 +4,8 @@
+ const webpack = require("webpack-stream");
+ const browsersync = require("browser-sync");
+ 
+-const dist = "./dist/";
+-// const dist = "E:/OpenServer/MAMP/htdocs/irvas"; //Dist for testing server side in MAMP
++// const dist = "./dist/";
++const dist = "E:/OpenServer/MAMP/htdocs/irvas"; //Dist for testing server side in MAMP
+ 
+ gulp.task("copy-html", () => {
+     return gulp.src("./src/index.html")

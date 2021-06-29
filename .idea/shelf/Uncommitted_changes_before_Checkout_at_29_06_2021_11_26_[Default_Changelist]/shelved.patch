@@ -1,0 +1,60 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"792d81ca-6c6f-44d3-a4b6-1dec4b893ffd\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/assets/img/loading.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/js/modules/forms.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/dist/script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/dist/script.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/dist/script.js.map\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/dist/script.js.map\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/gulpfile.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/gulpfile.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/js/main.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/js/main.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"tabs\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1uMIy03k3Y1QcAZj52qViaB3WZ7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/assets/img\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.CommitDialog\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"F:\\A\\Frontend\\Udemy\\JS Andvanced\\Source\\src\\assets\\img\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"792d81ca-6c6f-44d3-a4b6-1dec4b893ffd\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1624469285664</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1624469285664</updated>\r\n      <workItem from=\"1624469287095\" duration=\"6666000\" />\r\n      <workItem from=\"1624560110455\" duration=\"2019000\" />\r\n      <workItem from=\"1624563469397\" duration=\"736000\" />\r\n      <workItem from=\"1624705449378\" duration=\"4325000\" />\r\n      <workItem from=\"1624801213412\" duration=\"6576000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Added carcass with no JS\">\r\n      <created>1624562873557</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1624562873557</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Added modal windows and slider for website\">\r\n      <created>1624563094996</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1624563094996</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added tabs script for site\">\r\n      <created>1624712529722</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1624712529722</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Added carcass with no JS\" />\r\n    <MESSAGE value=\"Added modal windows and slider for website\" />\r\n    <MESSAGE value=\"Added tabs script for site\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added tabs script for site\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -2,13 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/assets/img/loading.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/js/modules/forms.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -55,7 +50,8 @@
+       <workItem from="1624560110455" duration="2019000" />
+       <workItem from="1624563469397" duration="736000" />
+       <workItem from="1624705449378" duration="4325000" />
+-      <workItem from="1624801213412" duration="6576000" />
++      <workItem from="1624801213412" duration="7294000" />
++      <workItem from="1624954252163" duration="252000" />
+     </task>
+     <task id="LOCAL-00001" summary="Added carcass with no JS">
+       <created>1624562873557</created>
+@@ -78,7 +74,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1624712529722</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Added post method to server and validation for phone number.">
++      <created>1624808489126</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1624808489127</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -100,6 +103,7 @@
+     <MESSAGE value="Added carcass with no JS" />
+     <MESSAGE value="Added modal windows and slider for website" />
+     <MESSAGE value="Added tabs script for site" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added tabs script for site" />
++    <MESSAGE value="Added post method to server and validation for phone number." />
++    <option name="LAST_COMMIT_MESSAGE" value="Added post method to server and validation for phone number." />
+   </component>
+ </project>
+\ No newline at end of file
