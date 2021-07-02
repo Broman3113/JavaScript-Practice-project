@@ -1,6 +1,6 @@
 const timer = (id, deadline) => {
 
-    const addZero = (num) => {
+    function addZero(num) {
         if (num <= 9) {
             return '0' + num;
         } else {
@@ -8,7 +8,7 @@ const timer = (id, deadline) => {
         }
     }
 
-    const getTimeRemaining = (endtime) => {
+    function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
             seconds = Math.floor((t / 1000) % 60),
             minutes = Math.floor((t / 1000 / 60) % 60),
@@ -22,9 +22,9 @@ const timer = (id, deadline) => {
             'minutes': minutes,
             'seconds': seconds
         };
-    };
+    }
 
-    const setClock = (selector, endtime) => {
+    function setClock(selector, endtime) {
         const timer = document.querySelector(selector),
             days = timer.querySelector("#days"),
             hours = timer.querySelector("#hours"),
@@ -51,9 +51,9 @@ const timer = (id, deadline) => {
                 clearInterval(timeInterval);
             }
         }
-    };
+    }
 
     setClock(id, deadline);
-};
+}
 
 export default timer;
