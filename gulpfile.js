@@ -4,8 +4,8 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-// const dist = "./dist/";
-const dist = "E:/OpenServer/MAMP/htdocs/irvas"; //Dist for testing server side in MAMP
+const dist = "./dist/";
+// const dist = "E:/OpenServer/MAMP/htdocs/irvas"; //Dist for testing server side in MAMP
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")
