@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/another.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <workItem from="1624705449378" duration="4325000" />
       <workItem from="1624801213412" duration="6576000" />
       <workItem from="1624997032609" duration="4396000" />
-      <workItem from="1625225930830" duration="17174000" />
+      <workItem from="1625225930830" duration="17393000" />
     </task>
     <task id="LOCAL-00001" summary="Added carcass with no JS">
       <created>1624562873557</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625308869487</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added redirecting page">
+      <created>1625309121603</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625309121603</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
