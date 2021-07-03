@@ -54,7 +54,7 @@
       <workItem from="1624705449378" duration="4325000" />
       <workItem from="1624801213412" duration="6576000" />
       <workItem from="1624997032609" duration="4396000" />
-      <workItem from="1625225930830" duration="16933000" />
+      <workItem from="1625225930830" duration="17174000" />
     </task>
     <task id="LOCAL-00001" summary="Added carcass with no JS">
       <created>1624562873557</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625308767117</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added redirecting page">
+      <created>1625308869487</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625308869487</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
