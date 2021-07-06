@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/modules/calcScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2021_11_26_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2021_11_26__Default_Changelist_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/modals.js" afterDir="false" />
-    </list>
+    <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +53,7 @@
       <workItem from="1624801213412" duration="6576000" />
       <workItem from="1624997032609" duration="4396000" />
       <workItem from="1625225930830" duration="18003000" />
-      <workItem from="1625568253244" duration="1191000" />
+      <workItem from="1625568253244" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Added carcass with no JS">
       <created>1624562873557</created>
@@ -184,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625309333205</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Bug Fixes">
+      <created>1625569589631</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625569589631</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +222,7 @@
     <MESSAGE value="Fixed minor bugs and built release version" />
     <MESSAGE value="Added README.md to project" />
     <MESSAGE value="Added redirecting page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added redirecting page" />
+    <MESSAGE value="Bug Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Fixes" />
   </component>
 </project>
