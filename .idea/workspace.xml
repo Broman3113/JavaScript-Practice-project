@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792d81ca-6c6f-44d3-a4b6-1dec4b893ffd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/another.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/calcScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2021_11_26_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_06_2021_11_26__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/modals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,8 @@
       <workItem from="1624705449378" duration="4325000" />
       <workItem from="1624801213412" duration="6576000" />
       <workItem from="1624997032609" duration="4396000" />
-      <workItem from="1625225930830" duration="17393000" />
+      <workItem from="1625225930830" duration="18003000" />
+      <workItem from="1625568253244" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Added carcass with no JS">
       <created>1624562873557</created>
@@ -169,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625309121603</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added redirecting page">
+      <created>1625309333205</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625309333205</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
